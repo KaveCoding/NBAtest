@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiDemoDel2-2</name>
+    </assembly>
+    <members>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.Products">
+            <inheritdoc cref="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.products"/>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.Id">
+            <inheritdoc cref="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.id"/>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.ProductName">
+            <inheritdoc cref="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.productName"/>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.Price">
+            <inheritdoc cref="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.price"/>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.ImageSource">
+            <inheritdoc cref="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.imageSource"/>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.Details">
+            <inheritdoc cref="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.details"/>
+        </member>
+        <member name="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.addProductCommand">
+            <summary>The backing field for <see cref="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.AddProductCommand"/>.</summary>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.AddProductCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiDemoDel2_2.ViewModels.ShopPageViewModel.AddProduct"/>.</summary>
+        </member>
+        <member name="F:MauiDemoDel2_2.ViewModels.ShopPageViewModel.deleteProductCommand">
+            <summary>The backing field for <see cref="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.DeleteProductCommand"/>.</summary>
+        </member>
+        <member name="P:MauiDemoDel2_2.ViewModels.ShopPageViewModel.DeleteProductCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MauiDemoDel2_2.ViewModels.ShopPageViewModel.DeleteProduct(System.Object)"/>.</summary>
+        </member>
+    </members>
+</doc>
