@@ -4,7 +4,7 @@
              x:Class="MauiDemoDel2_2.Views.ShopPage"
              xmlns:viewmodel="clr-namespace:MauiDemoDel2_2.ViewModels"
              x:DataType="viewmodel:ShopPageViewModel"
-             Title="{Binding Shop.Title}">
+             Title="Bläddra bland lag">
 
 
 
@@ -21,14 +21,14 @@
         <VerticalStackLayout>
       
        
-        <Entry Placeholder="Produktnamn"
+        <!--<Entry Placeholder="Produktnamn"
                    Text="{Binding TeamName}"/>
         <Entry Placeholder="Pris"
                    Text="{Binding Price}"/>
         <Entry Placeholder="Bild"
                    Text="{Binding ImageSource}"/>
         <Entry Placeholder="Detaljer"
-                   Text="{Binding Details}"/>
+                   Text="{Binding Details}"/>-->
 
         <!--<Button
                 x:Name="CounterBtn1"
@@ -36,20 +36,17 @@
                 Text="Lägg till produkt"
                 
                 HorizontalOptions="Center" />-->
-            
-
-
             <ListView
             ItemsSource="{Binding Teams}"
             ItemSelected="OnListViewitemSelected">
-            <ListView.ItemTemplate>
+                <ListView.ItemTemplate>
                     <DataTemplate>
-                    <ViewCell>
-                        <Grid Padding="10"
+                        <ViewCell>
+                            <Grid Padding="10"
                               RowDefinitions="Auto, *"
                               ColumnDefinitions="200, 200, 100"
                               ColumnSpacing="20">
-                            <Image Grid.RowSpan="2"
+                                <Image Grid.RowSpan="2"
                                    Source="{Binding ImageSource}"
                                    Aspect="Fill"
                                    HeightRequest="200"/>
@@ -60,22 +57,10 @@
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ShopPageViewModel}}, Path=DeleteProductCommand}"
                                            CommandParameter="{Binding .}"/>-->
                             </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-            
-            
-            
-            
-            
-            
-            
-            
-        </ListView>
-
-
-
-
-    </VerticalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

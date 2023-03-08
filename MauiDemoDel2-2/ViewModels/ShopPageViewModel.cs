@@ -16,19 +16,16 @@ namespace MauiDemoDel2_2.ViewModels
     {
         [ObservableProperty]
         ObservableCollection<Models.Team> teams;
-       
+
 
         [ObservableProperty]
         Guid id;
         [ObservableProperty]
         string teamName;
         [ObservableProperty]
-        int price;
-        [ObservableProperty]
         string imageSource;
         [ObservableProperty]
         string details;
-
 
 
         public Models.Shop Shop { get; set; }
@@ -38,7 +35,7 @@ namespace MauiDemoDel2_2.ViewModels
             Teams = new ObservableCollection<Models.Team>();
        
 
-            Teams.Add(new Models.Team
+            Teams.Add(new Models.Team     //lägg till apiresponse fixa knapp som visar saker 
             {
                 Id = Guid.NewGuid(),
                 TeamName = "Atlanta Hawks",
@@ -214,8 +211,6 @@ namespace MauiDemoDel2_2.ViewModels
                 TeamName = "Portland Trail Blazers",
                 ImageSource = "portlandtrailblazers.png",
                 teamId =29
-
-
             });
             Teams.Add(new Models.Team
             {
@@ -253,58 +248,10 @@ namespace MauiDemoDel2_2.ViewModels
                 teamId =41
             });
 
-            Shop = new Shop()
-            {
-                Title = "Fordonsshoppen",
-                HeaderImageSource = "shop.png"
-            };
+          
         }
 
 
-        // NYTT!
-        [RelayCommand]
-        public async void AddTeam()
-        {
-            Team Team = new Team()
-            {
-                Id = Guid.NewGuid(),
-                TeamName = TeamName,
-                Price = Price,
-                ImageSource = ImageSource,
-                Details = details
-            };
-
-            await GetDbCollection().InsertOneAsync(Team);
-
-            Teams.Add(Team);
-        }
-
-        [RelayCommand]
-        //public async void DeleteTeam(object p)
-        //{
-        //    var prod = (Team)p;
-        //    await GetDbCollection().DeleteOneAsync(x => x.Id == prod.Id);
-        //    Teams.Remove(prod);
-        //}
-
-        public async Task GetTeams()
-        {
-            List<Team> TeamsFromDb = await GetDbCollection().AsQueryable().ToListAsync();
-            await Task.Delay(3000);
-            TeamsFromDb.ForEach(x => Teams.Add(x));
-            Console.WriteLine("Hej");
-        }
-
-
-        public IMongoCollection<Models.Team> GetDbCollection()
-        {
-            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://Micke:Admin123@cluster0.b5faesa.mongodb.net/?retryWrites=true&w=majority");
-            settings.ServerApi = new ServerApi(ServerApiVersion.V1);
-            var client = new MongoClient(settings);
-            var database = client.GetDatabase("TheTeamDb");
-            var myCollection = database.GetCollection<Models.Team>("MyTeamCollection");
-            return myCollection;
-        }
-
+     
     }
 }
