@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Amazon.Runtime.Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MauiDemoDel2_2.Models
 {
+  
     internal class NBAAPIResponse
     {
         public string get { get; set; }
@@ -14,35 +16,44 @@ namespace MauiDemoDel2_2.Models
         public object[] errors { get; set; }
         public int results { get; set; }
         public Response[] response { get; set; }
-
-        public static async Task<NBAAPIResponse> GetNBATeam(int input)
+        
+       public static async Task<NBAAPIResponse> GetResponse(int input)
         {
-            NBAAPIResponse newbody = new NBAAPIResponse();
+            var team = await GetNBATeam(input);
 
-
-            var client = new HttpClient();
-            var request = new HttpRequestMessage
+            foreach (var item in team.response)
             {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/"+$"players?team={input}&season=2022"),
-                Headers =
+                Console.WriteLine($"Name: {item.firstname} {item.lastname}\nBirthdate: {item.birth.date}\nHeight: {item.height.meters}cm Weight: {item.weight.kilograms}kg");
+
+
+            }
+            return team;
+        }
+        public  static async Task<NBAAPIResponse> GetNBATeam(int input)
+            {
+                NBAAPIResponse newbody = new NBAAPIResponse();
+                var client = new HttpClient();
+                var request = new HttpRequestMessage
+                {
+                    Method = HttpMethod.Get,
+                    RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/" + $"players?team={input}&season=2022"),
+                    Headers =
         {
         { "X-RapidAPI-Key", "f05060df2fmshb5d970a07cc07bep17709djsnb951b9d040b3" },
         { "X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com" },
         },
-            };
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
-                newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
-                //Console.WriteLine(body);
-
-
-                return newbody;
+                };
+                using (var response = await client.SendAsync(request))
+                {
+                    response.EnsureSuccessStatusCode();
+                    var body = await response.Content.ReadAsStringAsync();
+                    newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
+                    
+                    return newbody;
+                }
             }
-
         }
+        
     }
 
     public class Parameters
@@ -137,7 +148,7 @@ namespace MauiDemoDel2_2.Models
         public string pos { get; set; }
     }
 
-}
+
 
 
     

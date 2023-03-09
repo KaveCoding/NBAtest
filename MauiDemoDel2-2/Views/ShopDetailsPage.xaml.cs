@@ -7,8 +7,10 @@ public partial class ShopDetailsPage : ContentPage
 	public ShopDetailsPage()
 	{
 		InitializeComponent();
-		
-	}
+        BindingContext = new ViewModels.ShopDetailsPageViewModel();
+
+
+    }
 
     private void OnBackClicked(object sender, EventArgs e)
     {
@@ -19,19 +21,6 @@ public partial class ShopDetailsPage : ContentPage
     {
         
     }
-    private async void OnListViewitemSelected(object sender, SelectedItemChangedEventArgs e)
-    {
-        var product = ((ListView)sender).SelectedItem as Team;
-        if (product != null)
-        {
-            var page = new ShopDetailsPage();
-            page.BindingContext = product;
-            await Navigation.PushAsync(page);
-
-
-        }
-
-
-    }
+    
 
 }

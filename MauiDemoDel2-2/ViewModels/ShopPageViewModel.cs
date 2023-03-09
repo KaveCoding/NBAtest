@@ -11,9 +11,11 @@ using System.Threading.Tasks;
 
 namespace MauiDemoDel2_2.ViewModels
 {
+
     
     internal partial class ShopPageViewModel : ObservableObject  
     {
+        public static int number = 1;  //testa använd denna
         [ObservableProperty]
         ObservableCollection<Models.Team> teams;
 
@@ -29,18 +31,17 @@ namespace MauiDemoDel2_2.ViewModels
 
         public Models.Shop Shop { get; set; }
 
-        public ShopPageViewModel()
+        public  ShopPageViewModel()
         {
             Teams = new ObservableCollection<Models.Team>();
-       
-
+    
             Teams.Add(new Models.Team     //lägg till apiresponse fixa knapp som visar saker 
             {
                 Id = Guid.NewGuid(),
                 TeamName = "Atlanta Hawks",
                 ImageSource = "atlantahawks.png", 
                 teamId =1,
-                aPIResponse = NBAAPIResponse.GetNBATeam(1)
+                response = NBAAPIResponse.GetResponse(1)
             });
             Teams.Add(new Models.Team
             {
