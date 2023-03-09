@@ -15,7 +15,7 @@ namespace MauiDemoDel2_2.Models
         public int results { get; set; }
         public Response[] response { get; set; }
 
-        public static async Task<NBAAPIResponse> GetNBATeam(string input)
+        public static async Task<NBAAPIResponse> GetNBATeam(int input)
         {
             NBAAPIResponse newbody = new NBAAPIResponse();
 
@@ -24,7 +24,7 @@ namespace MauiDemoDel2_2.Models
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/"+input),
+                RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/"+$"players?team={input}&season=2022"),
                 Headers =
         {
         { "X-RapidAPI-Key", "f05060df2fmshb5d970a07cc07bep17709djsnb951b9d040b3" },

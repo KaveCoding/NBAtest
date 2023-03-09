@@ -11,12 +11,11 @@ using System.Threading.Tasks;
 
 namespace MauiDemoDel2_2.ViewModels
 {
-    // Ändrat!
+    
     internal partial class ShopPageViewModel : ObservableObject  
     {
         [ObservableProperty]
         ObservableCollection<Models.Team> teams;
-
 
         [ObservableProperty]
         Guid id;
@@ -26,7 +25,7 @@ namespace MauiDemoDel2_2.ViewModels
         string imageSource;
         [ObservableProperty]
         string details;
-
+      
 
         public Models.Shop Shop { get; set; }
 
@@ -40,7 +39,8 @@ namespace MauiDemoDel2_2.ViewModels
                 Id = Guid.NewGuid(),
                 TeamName = "Atlanta Hawks",
                 ImageSource = "atlantahawks.png", 
-                teamId =1
+                teamId =1,
+                aPIResponse = NBAAPIResponse.GetNBATeam(1)
             });
             Teams.Add(new Models.Team
             {
