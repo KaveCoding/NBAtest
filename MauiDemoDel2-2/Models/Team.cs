@@ -15,7 +15,7 @@ namespace MauiDemoDel2_2.Models
         public string? ImageSource { get; set; }
       
         public int? teamId { get; set; }
-        public Task<NBAAPIResponse> response { get; set; }
+        public string? response { get; set; }
         
         
 

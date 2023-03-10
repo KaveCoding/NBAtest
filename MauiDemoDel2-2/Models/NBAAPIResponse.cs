@@ -17,18 +17,7 @@ namespace MauiDemoDel2_2.Models
         public int results { get; set; }
         public Response[] response { get; set; }
         
-       public static async Task<NBAAPIResponse> GetResponse(int input)
-        {
-            var team = await GetNBATeam(input);
-
-            foreach (var item in team.response)
-            {
-                Console.WriteLine($"Name: {item.firstname} {item.lastname}\nBirthdate: {item.birth.date}\nHeight: {item.height.meters}cm Weight: {item.weight.kilograms}kg");
-
-
-            }
-            return team;
-        }
+        
         public  static async Task<NBAAPIResponse> GetNBATeam(int input)
             {
                 NBAAPIResponse newbody = new NBAAPIResponse();
@@ -48,8 +37,8 @@ namespace MauiDemoDel2_2.Models
                     response.EnsureSuccessStatusCode();
                     var body = await response.Content.ReadAsStringAsync();
                     newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
-                    
-                    return newbody;
+
+                return newbody;
                 }
             }
         }

@@ -7,8 +7,7 @@ public partial class ShopDetailsPage : ContentPage
 	public ShopDetailsPage()
 	{
 		InitializeComponent();
-        BindingContext = new ViewModels.ShopDetailsPageViewModel();
-
+        
 
     }
 

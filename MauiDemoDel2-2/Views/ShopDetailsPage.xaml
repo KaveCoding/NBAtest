@@ -9,49 +9,20 @@
               Style="{DynamicResource TitleStyle}"></Label>
        
         <Image Source="{Binding ImageSource}"
-               HeightRequest="400"
+               HeightRequest="300"
                HorizontalOptions="Center"></Image>
-        <Label Text="{Binding response}"
-               HorizontalOptions="Center"
-               Style="{DynamicResource SubtitleStyle}"></Label>
 
-        
-        <ListView
-            ItemsSource="{Binding response}">
-            <!--ItemSelected="OnListViewitemSelected">-->
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid Padding="10"
-                              RowDefinitions="Auto, *"
-                              ColumnDefinitions="200, 200, 100"
-                              ColumnSpacing="20">
-                            <Image Grid.RowSpan="2"
-                                   Source="{Binding ImageSource}"
-                                   Aspect="Fill"
-                                   HeightRequest="200"/>
-                            <Label Grid.Column="1"
-                                   Text="{Binding ProductName}"
-                                   FontSize="32"/>
-                            <Label Grid.Row="1"
-                                   Grid.Column="1"
-                                   Text="{Binding Price, StringFormat='{0} kr'}"
-                                   FontSize="15"/>
-
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
-        <Button
-            Text="Tillbaka till butiken"
-            Clicked="OnBackClicked"
-            HorizontalOptions="Center"></Button>
-             
-
+        <Label Text="Spelare ">
             
+        </Label>
+        <Label
+            ></Label>
+        <Label Text="{Binding response}"
+               HorizontalOptions="Start"
+               Style="{DynamicResource SubtitleStyle}"
+               FontSize="Micro"
+               ></Label>
         
-        
+
     </VerticalStackLayout>
 </ContentPage>

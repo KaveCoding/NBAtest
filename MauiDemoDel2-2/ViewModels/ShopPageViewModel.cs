@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MauiDemoDel2_2.ViewModels
 {
 
@@ -27,21 +28,33 @@ namespace MauiDemoDel2_2.ViewModels
         string imageSource;
         [ObservableProperty]
         string details;
-      
+        static string team1info = null;
 
+        static async Task<string> run()
+        {
+           
+            var Team1 = await NBAAPIResponse.GetNBATeam(1);
+            foreach (var team in Team1.response)
+            {
+                team1info += $"{team.firstname} {team.lastname} {team.height.meters}M {team.weight.kilograms}Kg {team.leagues.standard.pos} \n ";
+            }
+            return team1info;
+        }
+        
         public Models.Shop Shop { get; set; }
-
         public  ShopPageViewModel()
         {
+            var task = Task.Run(() => run());
+            
+            
             Teams = new ObservableCollection<Models.Team>();
-    
             Teams.Add(new Models.Team     //lägg till apiresponse fixa knapp som visar saker 
             {
                 Id = Guid.NewGuid(),
                 TeamName = "Atlanta Hawks",
                 ImageSource = "atlantahawks.png", 
                 teamId =1,
-                response = NBAAPIResponse.GetResponse(1)
+                response = task.Result
             });
             Teams.Add(new Models.Team
             {
