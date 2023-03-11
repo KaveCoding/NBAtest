@@ -36,8 +36,14 @@ namespace MauiDemoDel2_2.Models
                 {
                     response.EnsureSuccessStatusCode();
                     var body = await response.Content.ReadAsStringAsync();
+                try
+                {
                     newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
+                }
+                catch (System.Text.Json.JsonException)
+                {
 
+                }
                 return newbody;
                 }
             }

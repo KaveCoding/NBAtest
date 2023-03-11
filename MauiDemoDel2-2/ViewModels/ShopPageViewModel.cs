@@ -34,16 +34,26 @@ namespace MauiDemoDel2_2.ViewModels
 
             string teaminfo = null;
             List<string> teaminfos = new List<string>();
-            int[] teamIds = new int[] { 1,2,4, 5 , 6, 7 , 8 ,9 ,10, 11 , 14, 15, 16 ,17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ,29 ,30, 31, 38, 40, 41}; 
-            for (int i = 1; i <= 41 && teamIds.Contains(i); i++)
+            
+            for (int i = 1; i <= 41 ; i++)
             {
                 var Team = await NBAAPIResponse.GetNBATeam(i);
-                foreach (var item in Team.response)
+                if (Team.response != null)
                 {
-                    teaminfo +=$" {item.firstname} {item.lastname} {item.height.meters}m {item.weight.kilograms}Kg \n ";
+                    foreach (var item in Team.response)
+                    {
+                        teaminfo += $" {item.firstname} {item.lastname} {item.height.meters}m {item.weight.kilograms}Kg {item.leagues.standard.pos} \n ";
+                    }
                 }
-                
-                teaminfos.Add(teaminfo);
+                    
+                if (teaminfos != null)
+                {
+                    teaminfos.Add(teaminfo);
+                }
+                else if (teaminfos == null)
+                {
+                    teaminfos.Add("Buggad");
+                }
                 teaminfo = null;
             }
                
@@ -63,7 +73,7 @@ namespace MauiDemoDel2_2.ViewModels
             try
             {
                 Teams = new ObservableCollection<Models.Team>();
-                Teams.Add(new Models.Team     //lägg till apiresponse fixa knapp som visar saker 
+                Teams.Add(new Models.Team     
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Atlanta Hawks",
@@ -85,7 +95,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Brooklyn Nets",
                     ImageSource = "brooklynnets.png",
                     teamId = 4,
-                    response = task.Result[2]
+                    response = task.Result[3]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -93,15 +103,15 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Charlotte Hornets",
                     ImageSource = "charlottehornets.png",
                     teamId = 5,
-                    //response = task.Result[4]
+                    response = task.Result[4]
                 });
-                Teams.Add(new Models.Team
+                Teams.Add(new Models.Team    
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Chicago Bulls",
                     ImageSource = "chicagobulls.png",
                     teamId = 6,
-                    //response = task.Result[5]
+                    response = task.Result[5]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -109,7 +119,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Cleveland Cavaliers",
                     ImageSource = "clevelandcavaliers.png",
                     teamId = 7,
-                    //response = task.Result[5]
+                    response = task.Result[6]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -117,7 +127,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Dallas Mavericks",
                     ImageSource = "dallasmavericks.png",
                     teamId = 8,
-                    //response = task.Result[6]
+                    response = task.Result[7]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -125,7 +135,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Denver Nuggets",
                     ImageSource = "denvernuggets.png",
                     teamId = 9,
-                    //response = task.Result[7]
+                    response = task.Result[8]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -133,7 +143,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Detroit Pistons",
                     ImageSource = "detroitpistons.png",
                     teamId = 10,
-                    //response = task.Result[8]
+                    response = task.Result[9]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -141,7 +151,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Golden State Warriors",
                     ImageSource = "goldenstatewarriors.png",
                     teamId = 11,
-                    //response = task.Result[9]
+                    response = task.Result[10]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -149,7 +159,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Houston Rockets",
                     ImageSource = "houstonrockets.png",
                     teamId = 14,
-                    //response = task.Result[10]
+                    response = task.Result[13]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -157,7 +167,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Indiana Pacers",
                     ImageSource = "indianapacers.png",
                     teamId = 15,
-                    //response = task.Result[11]
+                    response = task.Result[14]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -165,7 +175,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Los Angeles Clippers",
                     ImageSource = "losangelesclippers.png",
                     teamId = 16,
-                    //response = task.Result[12]
+                    response = task.Result[15]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -173,7 +183,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Los Angeles Lakers",
                     ImageSource = "losangeleslakers.png",
                     teamId = 17,
-                    //response = task.Result[13]
+                    response = task.Result[16]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -181,7 +191,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Memphis Grizzlies",
                     ImageSource = "memphisgrizzlies.png",
                     teamId = 19,
-                    //response = task.Result[14]
+                    response = task.Result[18]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -189,7 +199,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Miami Heat",
                     ImageSource = "miamiheat.gif",
                     teamId = 20,
-                    //response = task.Result[15]
+                    response = task.Result[19]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -197,7 +207,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Milwaukee Bucks",
                     ImageSource = "milwaukeebucks.png",
                     teamId = 21,
-                    //response = task.Result[16]
+                    response = task.Result[20]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -205,7 +215,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "Minnesota Timberwolves",
                     ImageSource = "minnesotatimberwolves.png",
                     teamId = 22,
-                    //response = task.Result[17]
+                    response = task.Result[21]
 
 
                 });
@@ -215,7 +225,7 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "New Orleans Pelicans",
                     ImageSource = "neworleanspelicans.png",
                     teamId = 23,
-                    //response = task.Result[18]
+                    response = task.Result[22]
                 });
                 Teams.Add(new Models.Team
                 {
@@ -223,82 +233,93 @@ namespace MauiDemoDel2_2.ViewModels
                     TeamName = "New York Knicks",
                     ImageSource = "newyorkknicks.gif",
                     teamId = 24,
-                    //response = task.Result[19]
+                    response = task.Result[23]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Oklahoma City Thunder",
                     ImageSource = "oklahomacitythunder.png",
-                    teamId = 25
+                    teamId = 25,
+                    response = task.Result[24]
+
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Orlando Magic",
                     ImageSource = "orlandomagic.png",
-                    teamId = 26
+                    teamId = 26,
+                    response = task.Result[25]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Philadelphia 76ers",
                     ImageSource = "philadelphia76ers.png",
-                    teamId = 27
+                    teamId = 27,
+                    response = task.Result[26]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Phoenix Suns",
                     ImageSource = "phoenixsuns.png",
-                    teamId = 28
+                    teamId = 28,
+                    response = task.Result[27]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Portland Trail Blazers",
                     ImageSource = "portlandtrailblazers.png",
-                    teamId = 29
+                    teamId = 29,
+                    response = task.Result[28]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Sacramento Kings",
                     ImageSource = "sacramentokings.png",
-                    teamId = 30
+                    teamId = 30,
+                    response = task.Result[29]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "San Antonio Spurs",
                     ImageSource = "sanantoniospurs.png",
-                    teamId = 31
+                    teamId = 31,
+                    response = task.Result[30]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Toronto Raptors",
                     ImageSource = "torontoraptors.png",
-                    teamId = 38
+                    teamId = 38,
+                    response = task.Result[31]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Utah Jazz",
                     ImageSource = "utahjazz.png",
-                    teamId = 40
+                    teamId = 40,
+                    response = task.Result[39]
                 });
                 Teams.Add(new Models.Team
                 {
                     Id = Guid.NewGuid(),
                     TeamName = "Washington Wizards",
                     ImageSource = "washingtonwizards.png",
-                    teamId = 41
+                    teamId = 41,
+                    response = task.Result[40]
                 });
             }
             catch (System.AggregateException) 
             {
-                Console.Write("");
+                
             }
             
 
