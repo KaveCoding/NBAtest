@@ -47,7 +47,36 @@ namespace MauiDemoDel2_2.Models
                 return newbody;
                 }
             }
+        public static async Task<NBAAPIResponse> GetTeamstatistics(int input)
+        {
+            NBAAPIResponse newbody = new NBAAPIResponse();
+            var client = new HttpClient();
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/" + $"teams/statistics?id={input}&season=2022"),
+                Headers =
+        {
+        { "X-RapidAPI-Key", "f05060df2fmshb5d970a07cc07bep17709djsnb951b9d040b3" },
+        { "X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com" },
+        },
+            };
+            using (var response = await client.SendAsync(request))
+            {
+                response.EnsureSuccessStatusCode();
+                var body = await response.Content.ReadAsStringAsync();
+                try
+                {
+                    newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
+                }
+                catch (System.Text.Json.JsonException)
+                {
+
+                }
+                return newbody;
+            }
         }
+    }
         
     }
 

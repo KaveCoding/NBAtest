@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiDemoDel2_2.MainPage">
+             x:Class="MauiDemoDel2_2.MainPage"
+             Title="Välkomstsidan">
+            
 
     <ScrollView>
         <VerticalStackLayout
@@ -9,18 +11,20 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center"
-                x:Name="Clock"/>
-
+           
             <Button Text="Bläddra bland lag"
                     Clicked="OnClickedGoTeamPage"
                     HorizontalOptions="Center"></Button>
-
+            <Button Text="Bläddra bland lag"
+                    Clicked="OnClickedGoTeamPage"
+                    HorizontalOptions="Center"></Button>
+            <StackLayout>
+                
+                <ImageButton Source="EB.png"
+                    Clicked="OnImageButtonClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </StackLayout>
 
 
         </VerticalStackLayout>

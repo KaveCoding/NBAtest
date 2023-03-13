@@ -2,27 +2,42 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiDemoDel2_2.Views.ShopDetailsPage"
-             Title="Team Details Page">
-    <VerticalStackLayout>
-        <Label Text="{Binding TeamName}"
-              HorizontalOptions="Center"
-              Style="{DynamicResource TitleStyle}"></Label>
+             Title="{Binding TeamName}">
+    <HorizontalStackLayout>
+        
        
         <Image Source="{Binding ImageSource}"
                HeightRequest="300"
-               HorizontalOptions="Center"></Image>
+               HorizontalOptions="FillAndExpand"></Image>
+               
+        <Label Text="    Stats                         | ">
 
-        <Label Text="Spelare ">
+        </Label>
+        
+        <Label 
             
+            Text="{Binding stats}"
+               HorizontalOptions="Center"
+               Style="{DynamicResource SubtitleStyle}"
+               FontSize="Micro"
+               ></Label>
+        <Label Text="    |                            Spelare | ">
+            
+        </Label>
+        <Label Text="   ">
+
         </Label>
         <Label
             ></Label>
         <Label Text="{Binding response}"
-               HorizontalOptions="Start"
+               HorizontalOptions="FillAndExpand"
                Style="{DynamicResource SubtitleStyle}"
                FontSize="Micro"
                ></Label>
-        
 
-    </VerticalStackLayout>
+        
+    </HorizontalStackLayout>
+    
+    
+    
 </ContentPage>

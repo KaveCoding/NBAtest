@@ -16,8 +16,9 @@ namespace MauiDemoDel2_2.Models
       
         public int? teamId { get; set; }
         public string? response { get; set; }
-        
-        
+        public string? stats { get; set; }
+
+
 
 
     }

@@ -16,10 +16,7 @@ public partial class ShopDetailsPage : ContentPage
 		Navigation.PopAsync();
     }
     
-    private void Button_Clicked(object sender, EventArgs e)
-    {
-        
-    }
+    
     
 
 }

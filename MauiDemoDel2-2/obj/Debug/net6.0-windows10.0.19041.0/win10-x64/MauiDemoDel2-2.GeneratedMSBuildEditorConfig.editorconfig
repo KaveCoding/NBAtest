@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiDemoDel2_2.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Elias/Desktop/NBAAppTest/MauiDemoDel3/MauiDemoDel2-2/Views/EBPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiDemoDel2_2.Views.EBPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EBPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EBPage.xaml
+
 [C:/Users/Elias/Desktop/NBAAppTest/MauiDemoDel3/MauiDemoDel2-2/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiDemoDel2_2.Views.MainPage.xaml
