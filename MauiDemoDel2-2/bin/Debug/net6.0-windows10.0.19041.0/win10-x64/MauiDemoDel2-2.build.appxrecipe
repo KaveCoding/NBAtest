@@ -1111,6 +1111,15 @@
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minnesotatimberwolves.scale-100.png">
       <PackagePath>minnesotatimberwolves.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nba.scale-100.jpg">
+      <PackagePath>nba.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nbaplayers.scale-100.jpg">
+      <PackagePath>nbaplayers.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nbaplayers.scale-100.webp">
+      <PackagePath>nbaplayers.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neworleanspelicans.scale-100.png">
       <PackagePath>neworleanspelicans.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1143,6 +1152,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\shop.scale-100.png">
       <PackagePath>shop.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\teamlogos.scale-100.png">
+      <PackagePath>teamlogos.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\torontoraptors.scale-100.png">
       <PackagePath>torontoraptors.scale-100.png</PackagePath>

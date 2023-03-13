@@ -6,28 +6,29 @@
             
 
     <ScrollView>
-        <VerticalStackLayout
+        <HorizontalStackLayout
             Spacing="25"
-            Padding="30,0"
+            Padding="200"
             VerticalOptions="Center">
 
            
-            <Button Text="Bläddra bland lag"
+    
+            <ImageButton 
+                Source="nba.jpg"
+                HeightRequest="300"
                     Clicked="OnClickedGoTeamPage"
-                    HorizontalOptions="Center"></Button>
-            <Button Text="Bläddra bland lag"
-                    Clicked="OnClickedGoTeamPage"
-                    HorizontalOptions="Center"></Button>
+                    HorizontalOptions="Center"></ImageButton>
             <StackLayout>
                 
                 <ImageButton Source="EB.png"
+                             HeightRequest="300"
                     Clicked="OnImageButtonClicked"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
             </StackLayout>
 
 
-        </VerticalStackLayout>
+        </HorizontalStackLayout>
     </ScrollView>
 
 </ContentPage>
