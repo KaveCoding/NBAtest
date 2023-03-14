@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-13T21:12:38.334</Modified>
+      <Modified>2023-03-14T15:28:18.381</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-13T19:22:26.573</Modified>
+      <Modified>2023-03-14T15:28:17.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiDemoDel2-2.runtimeconfig.json">
       <PackagePath>MauiDemoDel2-2.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiDemoDel2-2.dll">
       <PackagePath>MauiDemoDel2-2.dll</PackagePath>
-      <Modified>2023-03-13T21:12:36.505</Modified>
+      <Modified>2023-03-14T15:28:16.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiDemoDel2-2.exe</PackagePath>
-      <Modified>2023-03-13T21:12:36.561</Modified>
+      <Modified>2023-03-14T15:28:16.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1112,7 +1112,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiDemoDel2-2.deps.json">
       <PackagePath>MauiDemoDel2-2.deps.json</PackagePath>
-      <Modified>2023-03-13T21:12:38.026</Modified>
+      <Modified>2023-03-14T15:28:18.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1160,187 +1160,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-03-13T19:16:55.167</Modified>
+      <Modified>2023-03-14T15:28:08.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.386</Modified>
+      <Modified>2023-03-14T15:28:08.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.399</Modified>
+      <Modified>2023-03-14T15:28:08.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.410</Modified>
+      <Modified>2023-03-14T15:28:08.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.432</Modified>
+      <Modified>2023-03-14T15:28:08.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.496</Modified>
+      <Modified>2023-03-14T15:28:08.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.227</Modified>
+      <Modified>2023-03-14T15:28:08.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.230</Modified>
+      <Modified>2023-03-14T15:28:08.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.240</Modified>
+      <Modified>2023-03-14T15:28:08.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.232</Modified>
+      <Modified>2023-03-14T15:28:08.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.234</Modified>
+      <Modified>2023-03-14T15:28:08.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.211</Modified>
+      <Modified>2023-03-14T15:28:08.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.214</Modified>
+      <Modified>2023-03-14T15:28:08.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.224</Modified>
+      <Modified>2023-03-14T15:28:08.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.216</Modified>
+      <Modified>2023-03-14T15:28:08.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.219</Modified>
+      <Modified>2023-03-14T15:28:08.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.179</Modified>
+      <Modified>2023-03-14T15:28:08.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.182</Modified>
+      <Modified>2023-03-14T15:28:08.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.185</Modified>
+      <Modified>2023-03-14T15:28:08.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.187</Modified>
+      <Modified>2023-03-14T15:28:08.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.192</Modified>
+      <Modified>2023-03-14T15:28:08.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.195</Modified>
+      <Modified>2023-03-14T15:28:08.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.197</Modified>
+      <Modified>2023-03-14T15:28:08.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.208</Modified>
+      <Modified>2023-03-14T15:28:08.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.200</Modified>
+      <Modified>2023-03-14T15:28:08.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.202</Modified>
+      <Modified>2023-03-14T15:28:08.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.280</Modified>
+      <Modified>2023-03-14T15:28:08.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.284</Modified>
+      <Modified>2023-03-14T15:28:08.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.289</Modified>
+      <Modified>2023-03-14T15:28:08.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.297</Modified>
+      <Modified>2023-03-14T15:28:08.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.312</Modified>
+      <Modified>2023-03-14T15:28:08.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.259</Modified>
+      <Modified>2023-03-14T15:28:08.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.262</Modified>
+      <Modified>2023-03-14T15:28:08.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.265</Modified>
+      <Modified>2023-03-14T15:28:08.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.269</Modified>
+      <Modified>2023-03-14T15:28:08.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.276</Modified>
+      <Modified>2023-03-14T15:28:08.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.243</Modified>
+      <Modified>2023-03-14T15:28:08.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.246</Modified>
+      <Modified>2023-03-14T15:28:08.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.249</Modified>
+      <Modified>2023-03-14T15:28:08.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.251</Modified>
+      <Modified>2023-03-14T15:28:08.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.256</Modified>
+      <Modified>2023-03-14T15:28:08.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.318</Modified>
+      <Modified>2023-03-14T15:28:08.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.324</Modified>
+      <Modified>2023-03-14T15:28:08.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.332</Modified>
+      <Modified>2023-03-14T15:28:08.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.345</Modified>
+      <Modified>2023-03-14T15:28:08.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-03-13T19:16:55.378</Modified>
+      <Modified>2023-03-14T15:28:08.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\atlantahawks.scale-100.png">
       <PackagePath>atlantahawks.scale-100.png</PackagePath>
@@ -1433,6 +1433,10 @@
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\eb.scale-100.png">
       <PackagePath>eb.scale-100.png</PackagePath>
       <Modified>2023-03-13T18:28:52.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\elias.scale-100.jpg">
+      <PackagePath>elias.scale-100.jpg</PackagePath>
+      <Modified>2023-03-14T15:18:08.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\emblem_8509179.scale-100.png">
       <PackagePath>emblem_8509179.scale-100.png</PackagePath>
@@ -1541,6 +1545,10 @@
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\teamlogos.scale-100.png">
       <PackagePath>teamlogos.scale-100.png</PackagePath>
       <Modified>2023-03-13T19:02:25.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tony.scale-100.jpg">
+      <PackagePath>tony.scale-100.jpg</PackagePath>
+      <Modified>2023-03-14T15:27:35.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\torontoraptors.scale-100.png">
       <PackagePath>torontoraptors.scale-100.png</PackagePath>

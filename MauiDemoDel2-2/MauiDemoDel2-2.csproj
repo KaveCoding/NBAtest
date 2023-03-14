@@ -53,6 +53,7 @@
 	  <None Remove="Resources\Images\car.jpg" />
 	  <None Remove="Resources\Images\plane.jpg" />
 	  <None Remove="Resources\Images\shop.png" />
+	  <None Remove="Resources\Images\tony.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -62,6 +63,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\EBPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Lagdetaljer.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\NBAPage.xaml">

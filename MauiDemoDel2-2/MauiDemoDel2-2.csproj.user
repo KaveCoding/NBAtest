@@ -9,6 +9,9 @@
     <MauiXaml Update="Views\EBPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Lagdetaljer.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\NBAPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -1538,3 +1538,5 @@ C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-w
 C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nbaplayers.scale-100.jpg
 C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nbaplayers.scale-100.webp
 C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\teamlogos.scale-100.png
+C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\elias.scale-100.jpg
+C:\Users\Elias\Desktop\NBAAppTest\MauiDemoDel3\MauiDemoDel2-2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tony.scale-100.jpg
