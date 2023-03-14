@@ -5,37 +5,9 @@
              xmlns:viewmodel="clr-namespace:MauiDemoDel2_2.ViewModels"
              x:DataType="viewmodel:ShopPageViewModel"
              Title="Bläddra bland lag">
-
-
-
-
-
-
-
-
-
-
-
-
-        <ScrollView>
+    <ScrollView>
         <VerticalStackLayout>
       
-       
-        <!--<Entry Placeholder="Produktnamn"
-                   Text="{Binding TeamName}"/>
-        <Entry Placeholder="Pris"
-                   Text="{Binding Price}"/>
-        <Entry Placeholder="Bild"
-                   Text="{Binding ImageSource}"/>
-        <Entry Placeholder="Detaljer"
-                   Text="{Binding Details}"/>-->
-
-        <!--<Button
-                x:Name="CounterBtn1"
-                Command="{Binding AddTeamCommand}"
-                Text="Lägg till produkt"
-                
-                HorizontalOptions="Center" />-->
             <ListView
             ItemsSource="{Binding Teams}"
             ItemSelected="OnListViewitemSelected">
@@ -53,9 +25,7 @@
                                 <Label Grid.Column="1"
                                    Text="{Binding TeamName}"
                                    FontSize="32"/>
-                                <!--<Button Grid.Column="2" Text="Radera" 
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ShopPageViewModel}}, Path=DeleteProductCommand}"
-                                           CommandParameter="{Binding .}"/>-->
+                             
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

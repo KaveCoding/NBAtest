@@ -4,10 +4,14 @@
              x:Class="MauiDemoDel2_2.Views.NBAPage"
              Title="NBAPage">
     
-    <HorizontalStackLayout>
+    <StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Vertical">
+
+            <Label Text="Bläddra bland lag"
+                   HorizontalOptions="Center"
+                   FontSize="50"/>
         
-        
-        <ImageButton 
+            <ImageButton 
             
                 Source="teamlogos.png"
                 HeightRequest="400"
@@ -15,14 +19,25 @@
             Padding="10"
             
                     HorizontalOptions="Center"></ImageButton>
+        </StackLayout>
+        
+        
+        <StackLayout Orientation="Vertical">
 
-        <ImageButton
+            <Label Text="Sök efter spelare"
+                   HorizontalOptions="Center"
+                   FontSize="50"/>
+            
+
+            <ImageButton
 
             Padding="10"
              Source="nbaplayers.jpg"
                 HeightRequest="400"
                     Clicked="OnClickedGoPlayerPage"
                     HorizontalOptions="Center">
+
             </ImageButton>
-    </HorizontalStackLayout>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

@@ -31,6 +31,9 @@
                 Text="Lägg till lagmedlem"
                 
                 HorizontalOptions="Center" />
+            <Label Text="Lagmedlemmar"
+                   FontSize="32"
+                   HorizontalOptions="Center" />
             <ListView
             ItemsSource="{Binding Lagmedlemmar}"
             ItemSelected="OnListViewitemSelected">

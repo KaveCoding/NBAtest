@@ -27,7 +27,7 @@ namespace MauiDemoDel2_2.ViewModels
         string teamName;
         [ObservableProperty]
         string imageSource;
-      
+
         static string team1info = null;
 
         static async Task<List<string>> runplayers()
@@ -99,11 +99,7 @@ namespace MauiDemoDel2_2.ViewModels
 
             return teaminfos;
         }
-
-
-
-
-        public Models.Shop Shop { get; set; }
+   
         public  ShopPageViewModel()
         {
             var task = Task.Run(() => runplayers());

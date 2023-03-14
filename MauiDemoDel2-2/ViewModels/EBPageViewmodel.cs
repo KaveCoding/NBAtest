@@ -38,7 +38,7 @@ namespace MauiDemoDel2_2.ViewModels
         
             public EBPageViewmodel()
             {
-                lagmedlemmar= new ObservableCollection<Models.Lagmedlem>();
+                lagmedlemmar = new ObservableCollection<Models.Lagmedlem>();
               
             }
 
@@ -78,7 +78,6 @@ namespace MauiDemoDel2_2.ViewModels
                 LagmedlemsFromDb.ForEach(x => Lagmedlemmar.Add(x));
                
             }
-
 
             public IMongoCollection<Models.Lagmedlem> GetDbCollection()
             {
