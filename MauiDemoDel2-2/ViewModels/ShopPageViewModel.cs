@@ -77,10 +77,10 @@ namespace MauiDemoDel2_2.ViewModels
                     foreach (var item in Team.response)
                     {
                         teaminfo += $"Matcher {item.games}\nFastbreakPoäng {item.fastBreakPoints}" +
-                            $"\n Poäng från paint {item.pointsInPaint}\nAndra chans poäng {item.secondChancePoints}\n" +
+                            $"\nPoäng från paint {item.pointsInPaint}\nAndra chans poäng {item.secondChancePoints}\n" +
                             $"Poäng från turnovers {item.pointsOffTurnovers}\nStörsta ledningen {item.longestRun}\n" +
                             $"Antal mål {item.fgm}\nMålförsök {item.fga}\nProcent {item.fgp}\n3-poängare {item.tpm}\n" +
-                            $"3-poängare försök {item.tpa}\n3-poäng Procent {item.tpp}\nLyckade Frikast{item.ftm}\nFrikast gjorda {item.fta}\n" +
+                            $"3-poängare försök {item.tpa}\n3-poäng Procent {item.tpp}\nLyckade Frikast {item.ftm}\nFrikast gjorda {item.fta}\n" +
                             $"Frikast Procent {item.ftp}\nTotala Rebounds {item.totReb}\nOffensiva rebounds {item.offReb}\n" +
                             $"Defensiva rebounds {item.defReb}\nAssister {item.assists}\nSteals {item.steals}\nBlocks {item.blocks}\n" +
                             $"Turnovers {item.turnovers}\nFouls {item.pFouls}\nTotala poäng {item.points}";

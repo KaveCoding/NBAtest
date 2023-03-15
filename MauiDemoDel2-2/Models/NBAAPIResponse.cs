@@ -157,21 +157,21 @@ namespace MauiDemoDel2_2.Models
 
     public class Vegas
     {
-        public int jersey { get; set; }
+        public int? jersey { get; set; }
         public bool active { get; set; }
         public string pos { get; set; }
     }
 
     public class Utah
     {
-        public int jersey { get; set; }
+        public int? jersey { get; set; }
         public bool active { get; set; }
         public string pos { get; set; }
     }
 
     public class Sacramento
     {
-        public int jersey { get; set; }
+        public int? jersey { get; set; }
         public bool active { get; set; }
         public string pos { get; set; }
     }

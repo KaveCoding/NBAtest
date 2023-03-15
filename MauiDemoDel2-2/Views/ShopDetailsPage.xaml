@@ -3,39 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiDemoDel2_2.Views.ShopDetailsPage"
              Title="{Binding TeamName}">
-    <HorizontalStackLayout>
+    <HorizontalStackLayout
+         Spacing="200">
         
        
         <Image Source="{Binding ImageSource}"
-               HeightRequest="300"
-               HorizontalOptions="FillAndExpand"></Image>
+               HeightRequest="700"
                
-        <Label Text="    Stats                         | ">
+               HorizontalOptions="FillAndExpand"></Image>
 
-        </Label>
-        
-        <Label 
+
+        <VerticalStackLayout>
+            <Label Text="Stats"
+                   FontSize ="39">
+            </Label>
+            
+            <Label 
             
             Text="{Binding stats}"
                HorizontalOptions="Center"
                Style="{DynamicResource SubtitleStyle}"
                FontSize="Micro"
                ></Label>
-        <Label Text="    |                            Spelare | ">
-            
-        </Label>
-        <Label Text="   ">
 
-        </Label>
-        <Label
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+
+
+
+            <Label Text="Spelare"
+                   FontSize="39">
+
+            </Label>
+
+            <Label
             ></Label>
-        <Label Text="{Binding response}"
+            <Label Text="{Binding response}"
                HorizontalOptions="FillAndExpand"
                Style="{DynamicResource SubtitleStyle}"
                FontSize="Micro"
-               ></Label>
-
         
+               ></Label>
+        </VerticalStackLayout>
     </HorizontalStackLayout>
     
     
