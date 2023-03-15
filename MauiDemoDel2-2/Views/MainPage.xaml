@@ -5,30 +5,45 @@
              Title="Välkomstsidan">
             
 
-    <ScrollView>
+    
         <HorizontalStackLayout
             Spacing="25"
             Padding="200"
             VerticalOptions="Center">
 
-           
-    
-            <ImageButton 
+
+            <VerticalStackLayout>
+            <Label
+                    Text="NBA"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                    ></Label>
+                <ImageButton 
                 Source="nba.jpg"
                 HeightRequest="300"
                     Clicked="OnClickedGoTeamPage"
                     HorizontalOptions="Center"></ImageButton>
-            <StackLayout>
+
+            </VerticalStackLayout>
+         
                 
+            <StackLayout>
+            <VerticalStackLayout>
+                <Label
+                    Text="EB"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                    ></Label>
                 <ImageButton Source="EB.png"
                              HeightRequest="300"
                     Clicked="OnImageButtonClicked"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
-            </StackLayout>
+            </VerticalStackLayout>
+        </StackLayout>
 
 
         </HorizontalStackLayout>
-    </ScrollView>
+    
 
 </ContentPage>
