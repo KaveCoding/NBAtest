@@ -12,11 +12,11 @@ namespace MauiDemoDel2_2.Models
     public class NBAAPIResponse
     {
         public Guid? Id { get; set; }
-        public string get { get; set; }
-        public Parameters parameters { get; set; }
-        public object[] errors { get; set; }
-        public int results { get; set; }
-        public Response[] response { get; set; }
+        public string? get { get; set; }
+        public Parameters? parameters { get; set; }
+        public object?[] errors { get; set; }
+        public int? results { get; set; }
+        public Response?[] response { get; set; }
 
         public static async Task<NBAAPIResponse> Getplayers(string input)
         {
@@ -66,7 +66,7 @@ namespace MauiDemoDel2_2.Models
                 {
                     newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
                 }
-                catch (System.Text.Json.JsonException)
+                catch (JsonException)                                                            //ibland funkar inte serializern
                 {
 
                 }
@@ -80,8 +80,8 @@ namespace MauiDemoDel2_2.Models
 
     public class Parameters
     {
-        public string team { get; set; }
-        public string season { get; set; }
+        public string? team { get; set; }
+        public string? season { get; set; }
 
     }
 
@@ -91,13 +91,13 @@ namespace MauiDemoDel2_2.Models
         public int id { get; set; }
         public string firstname { get; set; }
         public string lastname { get; set; }
-        public Birth birth { get; set; }
-        public Nba nba { get; set; }
-        public Height height { get; set; }
-        public Weight weight { get; set; }
+        public Birth? birth { get; set; }
+        public Nba? nba { get; set; }
+        public Height? height { get; set; }
+        public Weight? weight { get; set; }
         public string college { get; set; }
         public string affiliation { get; set; }
-        public Leagues leagues { get; set; }
+        public Leagues? leagues { get; set; }
         public string? heightinM { get; set; }
         public string? weightinKG { get; set; }
         public string? birthdate { get; set; }
@@ -134,18 +134,18 @@ namespace MauiDemoDel2_2.Models
 
     public class Leagues
     {
-        public Standard standard { get; set; }
-        public Africa africa { get; set; }
-        public Vegas vegas { get; set; }
-        public Utah utah { get; set; }
-        public Sacramento sacramento { get; set; }
+        public Standard? standard { get; set; }
+        public Africa? africa { get; set; }
+        public Vegas? vegas { get; set; }
+        public Utah? utah { get; set; }
+        public Sacramento? sacramento { get; set; }
     }
 
     public class Standard
     {
         public int? jersey { get; set; }
-        public bool active { get; set; }
-        public string pos { get; set; }
+        public bool? active { get; set; }
+        public string? pos { get; set; }
     }
 
     public class Africa
