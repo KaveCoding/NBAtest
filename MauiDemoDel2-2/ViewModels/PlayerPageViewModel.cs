@@ -13,9 +13,9 @@ namespace MauiDemoDel2_2.ViewModels
 {
     internal partial class PlayerPageViewModel : ObservableObject
     {
-        [ObservableProperty] // ÄNDRAT!
-        ObservableCollection<Models.Lagmedlem> lagmedlemmar;
-        //public List<Models.Lagmedlem> Lagmedlems { get; set; }
+        [ObservableProperty] 
+        ObservableCollection<Response> players;
+        
 
         [ObservableProperty]
         Guid id;
@@ -23,68 +23,69 @@ namespace MauiDemoDel2_2.ViewModels
         [ObservableProperty]
         string namn;
         [ObservableProperty]
-        int vikt;
+        string firstname;
         [ObservableProperty]
-        string bild;
-        [ObservableProperty]
-        string beskrivning;
-        [ObservableProperty]
-        string position;
-        [ObservableProperty]
-        int längd;
+        string lastname;
+
+
 
 
 
         public PlayerPageViewModel()
         {
-            lagmedlemmar = new ObservableCollection<Models.Lagmedlem>();
+            Players = new ObservableCollection<Response>();
 
         }
 
 
         // NYTT!
         [RelayCommand]
-        public async void AddLagmedlem()
+        public async void SearchForPlayer()
         {
-            Lagmedlem lagmedlem = new Lagmedlem()
+            var response = await NBAAPIResponse.Getplayers(namn);
+
+            foreach (var item in response.response)
             {
-                Id = Guid.NewGuid(),
-                Namn = Namn,
-                Vikt = Vikt,
-                Bild = Bild,
-                Beskrivning = Beskrivning,
-                Position = Position,
-                Längd = längd
-            };
+                Response player = new Response()
+                {
+                    Id = Guid.NewGuid(),
+                    firstname = item.firstname,
+                    lastname = item.lastname,
+                    heightinM = item.height.meters,
+                    weightinKG = item.weight.kilograms,
+                    birthdate = item.birth.date,
+                    position = item.leagues.standard.pos
 
-            await GetDbCollection().InsertOneAsync(lagmedlem);
-
-            Lagmedlemmar.Add(lagmedlem);
+                };
+                await GetDbCollection().InsertOneAsync(player);
+                Players.Add(player);
+            }
+            
         }
 
         [RelayCommand]
-        public async void DeleteLagmedlem(object p)
+        public async void DeletePlayer(object p)
         {
-            var prod = (Lagmedlem)p;
+            var prod = (Response)p;
             await GetDbCollection().DeleteOneAsync(x => x.Id == prod.Id);
-            Lagmedlemmar.Remove(prod);
+            Players.Remove(prod);
         }
 
-        public async Task GetLagmedlemmar()
+        public async Task GetPlayers()
         {
-            List<Lagmedlem> LagmedlemsFromDb = await GetDbCollection().AsQueryable().ToListAsync();
+            List<Response> LagmedlemsFromDb = await GetDbCollection().AsQueryable().ToListAsync();
             await Task.Delay(3000);
-            LagmedlemsFromDb.ForEach(x => Lagmedlemmar.Add(x));
+            LagmedlemsFromDb.ForEach(x => Players.Add(x));
 
         }
 
-        public IMongoCollection<Models.Lagmedlem> GetDbCollection()
+        public IMongoCollection<Response> GetDbCollection()
         {
             var settings = MongoClientSettings.FromConnectionString("mongodb+srv://EliasZanghnaeh:Eazking23@eliastestdb.r8tqfe0.mongodb.net/?retryWrites=true&w=majority");
             settings.ServerApi = new ServerApi(ServerApiVersion.V1);
             var client = new MongoClient(settings);
             var database = client.GetDatabase("test");
-            var myCollection = database.GetCollection<Models.Lagmedlem>("MyLagmedlemCollection");
+            var myCollection = database.GetCollection<Response>("Sökhistorik");
             return myCollection;
         }
     }

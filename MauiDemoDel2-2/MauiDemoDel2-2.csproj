@@ -71,6 +71,9 @@
 	  <MauiXaml Update="Views\NBAPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Playerdetails.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Playerpage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

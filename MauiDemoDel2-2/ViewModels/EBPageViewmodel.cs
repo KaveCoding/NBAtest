@@ -47,6 +47,7 @@ namespace MauiDemoDel2_2.ViewModels
             [RelayCommand]
             public async void AddLagmedlem()
             {
+            
                 Lagmedlem lagmedlem = new Lagmedlem()
                 {
                     Id = Guid.NewGuid(),
@@ -57,8 +58,9 @@ namespace MauiDemoDel2_2.ViewModels
                     Position = Position,
                     Längd = längd
                 };
-
-                await GetDbCollection().InsertOneAsync(lagmedlem);
+            
+            
+            await GetDbCollection().InsertOneAsync(lagmedlem);
 
                 Lagmedlemmar.Add(lagmedlem);
             }

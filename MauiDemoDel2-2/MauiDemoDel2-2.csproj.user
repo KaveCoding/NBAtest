@@ -15,6 +15,9 @@
     <MauiXaml Update="Views\NBAPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Playerdetails.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Playerpage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

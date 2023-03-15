@@ -9,15 +9,41 @@ using System.Threading.Tasks;
 namespace MauiDemoDel2_2.Models
 {
   
-    internal class NBAAPIResponse
+    public class NBAAPIResponse
     {
+        public Guid? Id { get; set; }
         public string get { get; set; }
         public Parameters parameters { get; set; }
         public object[] errors { get; set; }
         public int results { get; set; }
         public Response[] response { get; set; }
-        
-        
+
+        public static async Task<NBAAPIResponse> Getplayers(string input)
+        {
+            NBAAPIResponse newbody = new NBAAPIResponse();
+
+
+            var client = new HttpClient();
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/players?search=" + $"{input}"),
+                Headers =
+    {
+        { "X-RapidAPI-Key", "f05060df2fmshb5d970a07cc07bep17709djsnb951b9d040b3" },
+        { "X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com" },
+    },
+            };
+            using (var response = await client.SendAsync(request))
+            {
+                response.EnsureSuccessStatusCode();
+                var body = await response.Content.ReadAsStringAsync();
+                newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
+            }
+
+
+            return newbody;
+        }
         public  static async Task<NBAAPIResponse> GetNBATeam(int input)
             {
                 NBAAPIResponse newbody = new NBAAPIResponse();
@@ -47,35 +73,7 @@ namespace MauiDemoDel2_2.Models
                 return newbody;
                 }
             }
-        public static async Task<NBAAPIResponse> GetTeamstatistics(int input)
-        {
-            NBAAPIResponse newbody = new NBAAPIResponse();
-            var client = new HttpClient();
-            var request = new HttpRequestMessage
-            {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/" + $"teams/statistics?id={input}&season=2022"),
-                Headers =
-        {
-        { "X-RapidAPI-Key", "f05060df2fmshb5d970a07cc07bep17709djsnb951b9d040b3" },
-        { "X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com" },
-        },
-            };
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
-                try
-                {
-                    newbody = JsonSerializer.Deserialize<NBAAPIResponse>(body);
-                }
-                catch (System.Text.Json.JsonException)
-                {
-
-                }
-                return newbody;
-            }
-        }
+        
     }
         
     }
@@ -89,6 +87,7 @@ namespace MauiDemoDel2_2.Models
 
     public class Response
     {
+        public Guid? Id { get; set; }
         public int id { get; set; }
         public string firstname { get; set; }
         public string lastname { get; set; }
@@ -99,9 +98,14 @@ namespace MauiDemoDel2_2.Models
         public string college { get; set; }
         public string affiliation { get; set; }
         public Leagues leagues { get; set; }
+        public string? heightinM { get; set; }
+        public string? weightinKG { get; set; }
+        public string? birthdate { get; set; }
+        public string? position { get; set; }
 
 
-    }
+
+}
 
     public class Birth
     {
