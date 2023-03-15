@@ -38,7 +38,7 @@ namespace MauiDemoDel2_2.ViewModels
         
             public EBPageViewmodel()
             {
-                lagmedlemmar = new ObservableCollection<Models.Lagmedlem>();
+                lagmedlemmar = new ObservableCollection<Lagmedlem>();
               
             }
 
@@ -76,18 +76,18 @@ namespace MauiDemoDel2_2.ViewModels
             public async Task GetLagmedlemmar()
             {
                 List<Lagmedlem> LagmedlemsFromDb = await GetDbCollection().AsQueryable().ToListAsync();
-                await Task.Delay(3000);
+            
                 LagmedlemsFromDb.ForEach(x => Lagmedlemmar.Add(x));
                
             }
 
-            public IMongoCollection<Models.Lagmedlem> GetDbCollection()
+            public IMongoCollection<Lagmedlem> GetDbCollection()
             {
                 var settings = MongoClientSettings.FromConnectionString("mongodb+srv://EliasZanghnaeh:Eazking23@eliastestdb.r8tqfe0.mongodb.net/?retryWrites=true&w=majority");
                 settings.ServerApi = new ServerApi(ServerApiVersion.V1);
                 var client = new MongoClient(settings);
                 var database = client.GetDatabase("test");
-                var myCollection = database.GetCollection<Models.Lagmedlem>("MyLagmedlemCollection");
+                var myCollection = database.GetCollection<Lagmedlem>("MyLagmedlemCollection");
                 return myCollection;
             }
         }

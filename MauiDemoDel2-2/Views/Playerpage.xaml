@@ -45,7 +45,7 @@
                                    FontSize="32"/>
 
                                 <Button Grid.Column="2" Text="Radera" 
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayerPageViewModel}}, Path=DeletePlayer}"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayerPageViewModel}}, Path=DeletePlayersCommand}"
                                            CommandParameter="{Binding .}"/>
                             </Grid>
                         </ViewCell>

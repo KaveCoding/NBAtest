@@ -64,7 +64,7 @@ namespace MauiDemoDel2_2.ViewModels
         }
 
         [RelayCommand]
-        public async void DeletePlayer(object p)
+        public async void DeletePlayers(object p)
         {
             var prod = (Response)p;
             await GetDbCollection().DeleteOneAsync(x => x.Id == prod.Id);
