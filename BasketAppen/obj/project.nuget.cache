@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3MFt0esR8aMdHu75L7QLqF6edfNilMIGeuYneF3hs/OWLoSuEcS2guOgCQiiz1OVEMbuuzcoPCXDTfF90rrXdA==",
+  "dgSpecHash": "yfcrCkJdc5MWEvJh16M1hmmhyOftQxg9hiLf/MmhkgdPoZwPg53yJk/I87aSZuwiKyPfVypCwfAHhza7Ap5MtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elias\\OneDrive\\C#\\C#\\Kurs 3\\BasketAppen\\BasketAppen\\BasketAppen\\BasketAppen.csproj",
+  "projectFilePath": "C:\\Users\\Elias\\Desktop\\NBAAppTest\\MauiDemoDel3\\BasketAppen\\BasketAppen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elias\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Elias\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

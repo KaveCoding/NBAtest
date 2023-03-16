@@ -32757,11 +32757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elias\\OneDrive\\C#\\C#\\Kurs 3\\BasketAppen\\BasketAppen\\BasketAppen\\BasketAppen.csproj",
+      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\NBAAppTest\\MauiDemoDel3\\BasketAppen\\BasketAppen.csproj",
       "projectName": "BasketAppen",
-      "projectPath": "C:\\Users\\Elias\\OneDrive\\C#\\C#\\Kurs 3\\BasketAppen\\BasketAppen\\BasketAppen\\BasketAppen.csproj",
+      "projectPath": "C:\\Users\\Elias\\Desktop\\NBAAppTest\\MauiDemoDel3\\BasketAppen\\BasketAppen.csproj",
       "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elias\\OneDrive\\C#\\C#\\Kurs 3\\BasketAppen\\BasketAppen\\BasketAppen\\obj\\",
+      "outputPath": "C:\\Users\\Elias\\Desktop\\NBAAppTest\\MauiDemoDel3\\BasketAppen\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
