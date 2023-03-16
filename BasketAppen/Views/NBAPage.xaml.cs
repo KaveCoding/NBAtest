@@ -16,4 +16,13 @@ public partial class NBAPage : ContentPage
         await Navigation.PushAsync(new Views.Playerpage());
     }
 
+    private async void OnClickedClock(object sender, EventArgs e)
+    {
+        while (true)
+        {
+
+            Clock.Text = TimeElapsed.Instance.GetElapsedTime().ToString();
+            await Task.Delay(1000);
+        }
+    }
 }

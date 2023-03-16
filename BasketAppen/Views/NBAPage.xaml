@@ -3,14 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasketAppen.Views.NBAPage"
              Title="NBAPage">
-    
-    <StackLayout Orientation="Horizontal">
-        <StackLayout Orientation="Vertical">
+
+
+
+    <VerticalStackLayout>
+
+      
+        <HorizontalStackLayout>
+
+        <VerticalStackLayout>
 
             <Label Text="Bläddra bland lag"
                    HorizontalOptions="Center"
                    FontSize="50"/>
-        
+
             <ImageButton 
             
                 Source="teamlogos.png"
@@ -19,25 +25,36 @@
             Padding="10"
             
                     HorizontalOptions="Center"></ImageButton>
-        </StackLayout>
-        
-        
+
+
+        </VerticalStackLayout>
         <StackLayout Orientation="Vertical">
 
             <Label Text="Sök efter spelare"
                    HorizontalOptions="Center"
                    FontSize="50"/>
             
-
             <ImageButton
-
             Padding="10"
              Source="nbaplayers.jpg"
                 HeightRequest="400"
                     Clicked="OnClickedGoPlayerPage"
                     HorizontalOptions="Center">
 
-            </ImageButton>
-        </StackLayout>
-    </StackLayout>
+        
+        </ImageButton>
+                <Label
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"
+                x:Name="Clock"/>
+
+                <Button Text="Get Elapsed time"
+                   x:Name="myButton"
+                    Clicked="OnClickedClock"
+                    HorizontalOptions="Center"></Button>
+
+            </StackLayout>
+    </HorizontalStackLayout>
+    </VerticalStackLayout>
 </ContentPage>

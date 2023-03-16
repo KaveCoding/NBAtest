@@ -3,17 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasketAppen.MainPage"
              Title="Välkomstsidan">
-            
+    <VerticalStackLayout>
+        <Label
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"
+                x:Name="Clock"/>
 
-    
+        <Button Text="Get Elapsed time"
+                   x:Name="myButton"
+                    Clicked="OnClickedClock"
+                    HorizontalOptions="Center"></Button>
         <HorizontalStackLayout
             Spacing="25"
             Padding="200"
             VerticalOptions="Center">
 
-
             <VerticalStackLayout>
-            <Label
+                <Label
                     Text="NBA"
                 FontSize="Large"
                 HorizontalOptions="Center"
@@ -25,25 +32,27 @@
                     HorizontalOptions="Center"></ImageButton>
 
             </VerticalStackLayout>
-         
-                
+
+
             <StackLayout>
-            <VerticalStackLayout>
-                <Label
+                <VerticalStackLayout>
+                    <Label
                     Text="EB"
                 FontSize="Large"
                 HorizontalOptions="Center"
                     ></Label>
-                <ImageButton Source="EB.png"
+                    <ImageButton Source="EB.png"
                              HeightRequest="300"
                     Clicked="OnImageButtonClicked"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
-            </VerticalStackLayout>
-        </StackLayout>
+                </VerticalStackLayout>
+            </StackLayout>
 
+        
+       
 
         </HorizontalStackLayout>
-    
+    </VerticalStackLayout>
 
 </ContentPage>

@@ -5,7 +5,13 @@
              xmlns:viewmodel="clr-namespace:BasketAppen.ViewModels"
              Title="Playerpage">
 
+    
+    
+    
     <ScrollView>
+        
+        
+        
         <VerticalStackLayout>
 
             <Label Text="Sök efter spelare"

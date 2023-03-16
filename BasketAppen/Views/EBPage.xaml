@@ -8,7 +8,21 @@
     <ScrollView>
         <VerticalStackLayout>
 
-            <Label Text="Lägg till en lagmedlem"
+            <Label
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"
+                x:Name="Clock"/>
+
+            <Button Text="Get Elapsed time"
+                   x:Name="myButton"
+                    Clicked="OnClickedClock"
+                    HorizontalOptions="Center"></Button>
+
+           
+
+
+                <Label Text="Lägg till en lagmedlem"
                    FontSize="32"
                    HorizontalOptions="Center" />
             <Entry Placeholder="Namn"

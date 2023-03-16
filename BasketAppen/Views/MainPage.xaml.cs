@@ -1,4 +1,6 @@
-﻿namespace BasketAppen;
+﻿using BasketAppen.Views;
+
+namespace BasketAppen;
 
 public partial class MainPage : ContentPage
 {
@@ -17,6 +19,19 @@ public partial class MainPage : ContentPage
     {
         await Navigation.PushAsync(new Views.NBAPage());
     }
+
+
+    private async void OnClickedClock(object sender, EventArgs e)
+    {
+        while (true)
+        {
+
+            Clock.Text = TimeElapsed.Instance.GetElapsedTime().ToString();
+            await Task.Delay(1000);
+        }
+    }
+
+    
 
 }
 
