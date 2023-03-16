@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>8a22c042-ed8a-4115-8a27-0d4601216e11</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Elias\Desktop\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>F78FFB5C6DE95CB6946CB93316FF2DF53686EBB10C9FA5B5F14C4427AB45A2F9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8a22c042-ed8a-4115-8a27-0d4601216e11_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8a22c042-ed8a-4115-8a27-0d4601216e11_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-16T12:26:07.160</Modified>
+      <Modified>2023-03-16T12:41:08.589</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-16T12:26:06.677</Modified>
+      <Modified>2023-03-16T12:41:08.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\BasketAppen.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\BasketAppen.runtimeconfig.json">
       <PackagePath>BasketAppen.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-16T12:25:19.072</Modified>
+      <Modified>2023-03-16T12:40:51.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\BasketAppen.dll">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\BasketAppen.dll">
       <PackagePath>BasketAppen.dll</PackagePath>
-      <Modified>2023-03-16T12:26:05.113</Modified>
+      <Modified>2023-03-16T12:40:49.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BasketAppen.exe</PackagePath>
-      <Modified>2023-03-16T12:26:05.134</Modified>
+      <Modified>2023-03-16T12:40:49.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1110,9 +1110,9 @@
       <PackagePath>mongocrypt.dll</PackagePath>
       <Modified>2023-01-20T23:11:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\BasketAppen.deps.json">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\BasketAppen.deps.json">
       <PackagePath>BasketAppen.deps.json</PackagePath>
-      <Modified>2023-03-16T12:26:06.971</Modified>
+      <Modified>2023-03-16T12:41:08.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1126,383 +1126,383 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-01-19T02:56:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-02-22T08:31:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:20:38.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:20:38.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:20:38.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:20:38.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:20:39.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-03-16T12:20:26.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-03-16T12:20:27.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-03-16T12:25:52.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:53.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:53.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-16T12:25:53.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-16T12:25:53.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-16T12:25:53.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-16T12:25:53.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-16T12:25:53.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-16T12:25:53.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-16T12:25:53.032</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-16T12:25:53.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-16T12:25:53.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-16T12:25:53.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:53.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:53.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:53.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-03-16T12:25:53.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-03-16T12:25:53.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-03-16T12:25:53.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-03-16T12:25:53.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-03-16T12:25:53.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:53.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:53.101</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:53.106</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:53.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:53.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:53.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.087</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:53.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:53.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:53.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:53.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:53.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:53.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\atlantahawks.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\atlantahawks.scale-100.png">
       <PackagePath>atlantahawks.scale-100.png</PackagePath>
       <Modified>2023-03-07T19:39:54.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bostonceltics.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bostonceltics.scale-100.png">
       <PackagePath>bostonceltics.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:41:00.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\brooklynnets.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\brooklynnets.scale-100.png">
       <PackagePath>brooklynnets.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:41:33.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\charlottehornets.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\charlottehornets.scale-100.png">
       <PackagePath>charlottehornets.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:41:58.654</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\chicagobulls.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\chicagobulls.scale-100.png">
       <PackagePath>chicagobulls.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:42:18.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\clevelandcavaliers.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\clevelandcavaliers.scale-100.png">
       <PackagePath>clevelandcavaliers.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:45:29.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dallasmavericks.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dallasmavericks.scale-100.png">
       <PackagePath>dallasmavericks.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:45:38.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\denvernuggets.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\denvernuggets.scale-100.png">
       <PackagePath>denvernuggets.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:45:49.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\detroitpistons.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\detroitpistons.scale-100.png">
       <PackagePath>detroitpistons.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:46:42.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-03-16T12:25:52.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-03-16T12:25:52.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-03-16T12:25:52.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-03-16T12:25:53.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-03-16T12:25:53.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\eb.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\eb.scale-100.png">
       <PackagePath>eb.scale-100.png</PackagePath>
       <Modified>2023-03-13T18:28:52.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\elias.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\elias.scale-100.jpg">
       <PackagePath>elias.scale-100.jpg</PackagePath>
       <Modified>2023-03-14T15:18:08.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\goldenstatewarriors.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\goldenstatewarriors.scale-100.png">
       <PackagePath>goldenstatewarriors.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:46:52.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\houstonrockets.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\houstonrockets.scale-100.png">
       <PackagePath>houstonrockets.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:47:03.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\indianapacers.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\indianapacers.scale-100.png">
       <PackagePath>indianapacers.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:47:24.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\losangelesclippers.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\losangelesclippers.scale-100.png">
       <PackagePath>losangelesclippers.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:47:43.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\losangeleslakers.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\losangeleslakers.scale-100.png">
       <PackagePath>losangeleslakers.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:47:50.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\memphisgrizzlies.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\memphisgrizzlies.scale-100.png">
       <PackagePath>memphisgrizzlies.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:48:05.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\miamiheat.scale-100.gif">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\miamiheat.scale-100.gif">
       <PackagePath>miamiheat.scale-100.gif</PackagePath>
       <Modified>2023-03-07T20:48:14.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\milwaukeebucks.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\milwaukeebucks.scale-100.png">
       <PackagePath>milwaukeebucks.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:48:22.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minnesotatimberwolves.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minnesotatimberwolves.scale-100.png">
       <PackagePath>minnesotatimberwolves.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:48:49.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nba.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nba.scale-100.jpg">
       <PackagePath>nba.scale-100.jpg</PackagePath>
       <Modified>2023-03-13T18:41:22.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nbaplayers.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\nbaplayers.scale-100.jpg">
       <PackagePath>nbaplayers.scale-100.jpg</PackagePath>
       <Modified>2023-03-13T19:11:05.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neworleanspelicans.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neworleanspelicans.scale-100.png">
       <PackagePath>neworleanspelicans.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:49:03.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\newyorkknicks.scale-100.gif">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\newyorkknicks.scale-100.gif">
       <PackagePath>newyorkknicks.scale-100.gif</PackagePath>
       <Modified>2023-03-07T20:49:16.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\oklahomacitythunder.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\oklahomacitythunder.scale-100.png">
       <PackagePath>oklahomacitythunder.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:49:24.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\orlandomagic.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\orlandomagic.scale-100.png">
       <PackagePath>orlandomagic.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:49:32.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\philadelphia76ers.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\philadelphia76ers.scale-100.png">
       <PackagePath>philadelphia76ers.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:49:40.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoenixsuns.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoenixsuns.scale-100.png">
       <PackagePath>phoenixsuns.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:49:48.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\portlandtrailblazers.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\portlandtrailblazers.scale-100.png">
       <PackagePath>portlandtrailblazers.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:49:55.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sacramentokings.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sacramentokings.scale-100.png">
       <PackagePath>sacramentokings.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:50:05.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sanantoniospurs.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sanantoniospurs.scale-100.png">
       <PackagePath>sanantoniospurs.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:50:12.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\teamlogos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\teamlogos.scale-100.png">
       <PackagePath>teamlogos.scale-100.png</PackagePath>
       <Modified>2023-03-13T19:02:25.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tony.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tony.scale-100.jpg">
       <PackagePath>tony.scale-100.jpg</PackagePath>
       <Modified>2023-03-14T15:27:35.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\torontoraptors.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\torontoraptors.scale-100.png">
       <PackagePath>torontoraptors.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:50:18.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\utahjazz.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\utahjazz.scale-100.png">
       <PackagePath>utahjazz.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:58:18.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Elias\OneDrive\C#\C#\Kurs 3\BasketAppen\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\washingtonwizards.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\washingtonwizards.scale-100.png">
       <PackagePath>washingtonwizards.scale-100.png</PackagePath>
       <Modified>2023-03-07T20:50:38.176</Modified>
     </AppxPackagedFile>
