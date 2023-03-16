@@ -10,7 +10,7 @@
                 HorizontalOptions="Center"
                 x:Name="Clock"/>
 
-        <Button Text="Get Elapsed time"
+        <Button Text="Get Elapsed time, behöver startas först"
                    x:Name="myButton"
                     Clicked="OnClickedClock"
                     HorizontalOptions="Center"></Button>
