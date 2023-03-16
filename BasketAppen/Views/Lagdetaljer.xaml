@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasketAppen.Views.Lagdetaljer"
+             Title="Persondetaljer">
+    <VerticalStackLayout>
+        <Label Text="{Binding Namn}"
+              HorizontalOptions="Center"
+              Style="{DynamicResource TitleStyle}"></Label>
+        <Label Text="{Binding Längd, StringFormat='Längd: {0} cm'}"
+               FontSize="25"
+               HorizontalOptions="Center"></Label>
+        <Label Text="{Binding Vikt, StringFormat='Vikt: {0} kg'}"
+               FontSize="25"
+               HorizontalOptions="Center"></Label>
+        <Label Text="{Binding Position, StringFormat='Position: {0} '}"
+               FontSize="25"
+               HorizontalOptions="Center"></Label>
+        <Image Source="{Binding Bild}"
+               HeightRequest="400"
+               HorizontalOptions="Center"></Image>
+        <Label Text="{Binding Beskrivning}"
+               HorizontalOptions="Center"
+               Style="{DynamicResource SubtitleStyle}"></Label>
+
+
+    </VerticalStackLayout>
+</ContentPage>

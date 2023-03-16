@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasketAppen.Views.TeamPage"
+             xmlns:viewmodel="clr-namespace:BasketAppen.ViewModels"
+             x:DataType="viewmodel:TeampageViewModel"
+             Title="Bläddra bland lag">
+    <ScrollView>
+        <VerticalStackLayout>
+      
+            <ListView
+            ItemsSource="{Binding Teams}"
+            ItemSelected="OnListViewitemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10"
+                              RowDefinitions="Auto, *"
+                              ColumnDefinitions="200, 200, 100"
+                              ColumnSpacing="20">
+                                <Image Grid.RowSpan="2"
+                                   Source="{Binding ImageSource}"
+                                   Aspect="Fill"
+                                   HeightRequest="200"/>
+                                <Label Grid.Column="1"
+                                   Text="{Binding TeamName}"
+                                   FontSize="32"/>
+                             
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

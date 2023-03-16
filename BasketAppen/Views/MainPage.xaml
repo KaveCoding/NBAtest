@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasketAppen.MainPage"
+             Title="Välkomstsidan">
+            
+
+    
+        <HorizontalStackLayout
+            Spacing="25"
+            Padding="200"
+            VerticalOptions="Center">
+
+
+            <VerticalStackLayout>
+            <Label
+                    Text="NBA"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                    ></Label>
+                <ImageButton 
+                Source="nba.jpg"
+                HeightRequest="300"
+                    Clicked="OnClickedGoTeamPage"
+                    HorizontalOptions="Center"></ImageButton>
+
+            </VerticalStackLayout>
+         
+                
+            <StackLayout>
+            <VerticalStackLayout>
+                <Label
+                    Text="EB"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                    ></Label>
+                <ImageButton Source="EB.png"
+                             HeightRequest="300"
+                    Clicked="OnImageButtonClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </VerticalStackLayout>
+        </StackLayout>
+
+
+        </HorizontalStackLayout>
+    
+
+</ContentPage>
