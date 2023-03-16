@@ -1009,6 +1009,9 @@
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\atlantahawks.scale-100.png">
       <PackagePath>atlantahawks.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\boban.scale-100.jpg">
+      <PackagePath>boban.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bostonceltics.scale-100.png">
       <PackagePath>bostonceltics.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1054,6 +1057,9 @@
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\elias.scale-100.jpg">
       <PackagePath>elias.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\eric.scale-100.jpg">
+      <PackagePath>eric.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\goldenstatewarriors.scale-100.png">
       <PackagePath>goldenstatewarriors.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1062,6 +1068,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\indianapacers.scale-100.png">
       <PackagePath>indianapacers.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\khaled.scale-100.png">
+      <PackagePath>khaled.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elias\Desktop\BasketAppen\BasketAppen\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\losangelesclippers.scale-100.png">
       <PackagePath>losangelesclippers.scale-100.png</PackagePath>
