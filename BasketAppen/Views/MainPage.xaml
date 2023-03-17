@@ -16,7 +16,7 @@
                     HorizontalOptions="Center"></Button>
         <HorizontalStackLayout
             Spacing="25"
-            Padding="200"
+            Padding="100"
             VerticalOptions="Center">
 
             <VerticalStackLayout>
