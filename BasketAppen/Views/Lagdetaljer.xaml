@@ -6,7 +6,7 @@
     <VerticalStackLayout>
         <Label Text="{Binding Namn}"
               HorizontalOptions="Center"
-              Style="{DynamicResource TitleStyle}"></Label>
+              FontSize ="Medium"></Label>
         <Label Text="{Binding Längd, StringFormat='Längd: {0} cm'}"
                FontSize="25"
                HorizontalOptions="Center"></Label>

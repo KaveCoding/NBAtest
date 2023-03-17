@@ -8,7 +8,7 @@
         
        
         <Image Source="{Binding ImageSource}"
-               HeightRequest="700"
+               HeightRequest="300"
                
                HorizontalOptions="FillAndExpand"></Image>
 
