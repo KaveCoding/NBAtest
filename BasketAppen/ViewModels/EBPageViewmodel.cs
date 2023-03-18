@@ -14,9 +14,9 @@ namespace BasketAppen.ViewModels
    
         internal partial class EBPageViewmodel : ObservableObject  // ÄNDRAT!
         {
-            [ObservableProperty] // ÄNDRAT!
+            [ObservableProperty] 
             ObservableCollection<Models.Lagmedlem> lagmedlemmar;
-            //public List<Models.Lagmedlem> Lagmedlems { get; set; }
+            
 
             [ObservableProperty]
             Guid id;
